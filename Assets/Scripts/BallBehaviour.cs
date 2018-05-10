@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallMove : MonoBehaviour {
+public class BallBehaviour : MonoBehaviour {
 
 	public float thrust = 500;
     private Rigidbody rb;
@@ -29,5 +29,8 @@ public class BallMove : MonoBehaviour {
     private void OnCollisionEnter(Collision collision)
     {
         rb.velocity = Vector3.Reflect(preVelocity, collision.contacts[0].normal);
-    }
+        if (collision.gameObject.CompareTag("Brick")) {
+            Destroy(collision.gameObject);
+        }
+    }    
 }
