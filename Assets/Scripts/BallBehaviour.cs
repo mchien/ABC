@@ -8,12 +8,11 @@ public class BallBehaviour : MonoBehaviour {
     private Rigidbody rb;
     private Vector3 preVelocity;
     private Vector3 postVelocity;
+    private bool started = false;
 
 
     void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody>();
-        rb.AddForce(0, -thrust, 0, ForceMode.Force);
     }
 
     void FixedUpdate()
@@ -23,8 +22,19 @@ public class BallBehaviour : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-		
-	}
+        
+        if ((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetButtonDown("Fire1"))
+        {
+            if (!started)
+            {
+                rb = gameObject.GetComponent<Rigidbody>();
+                rb.AddForce(0, -thrust, 0, ForceMode.Force);
+            }
+            started = true;
+        }
+
+        
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
