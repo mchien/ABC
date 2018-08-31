@@ -32,6 +32,7 @@ public class Scaler : MonoBehaviour {
 
 
                 transform.localScale = new Vector3(xScale, yScale, transform.localScale.z);
+
             }
             scaleSet = true;
         }
