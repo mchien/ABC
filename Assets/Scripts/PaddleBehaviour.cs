@@ -6,10 +6,12 @@ using Vuforia;
 public class PaddleBehaviour : MonoBehaviour {
 
     private bool positionSet = false;
+    private ImageTargetBehaviour itb;
 
     // Use this for initialization
     void Start () {
-        StartCoroutine(SetPaddle());
+        //StartCoroutine(SetPaddle());
+        itb = GameObject.Find("ImageTarget").GetComponent<ImageTargetBehaviour>();
     }
 
     private IEnumerator SetPaddle()
@@ -32,5 +34,17 @@ public class PaddleBehaviour : MonoBehaviour {
 
         // Update is called once per frame
     void Update () {
+        if (itb != null) {
+            Vector3 pos = new Vector3(itb.transform.position.x, itb.transform.position.y, 20);
+            transform.position = pos;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("LeftWall") || collision.gameObject.CompareTag("RightWall"))
+        {
+            Physics.IgnoreCollision(collision.collider, GetComponent<Collider>());
+        }
     }
 }

@@ -22,20 +22,7 @@ public class WallPosition : MonoBehaviour {
         yield return new WaitForSeconds(0.2f);
         if (!positionSet) {
             if (VuforiaBehaviour.Instance.enabled) {
-
-                //Transform cam = Camera.main.transform;
-                //transform.position = new Vector3(
-                //    cam.right.x * transform.position.x,
-                //    cam.up.y * transform.position.y,
-                //    cam.forward.z * transform.position.z
-                //);
-
-                //Camera cam = Camera.main;
-                //Vector3 pos = cam.WorldToViewportPoint(transform.position);
-                //pos.x = Mathf.Round(Mathf.Clamp01(pos.x));
-                //pos.y = Mathf.Round(Mathf.Clamp01(pos.y));
-                //transform.position = cam.ViewportToWorldPoint(pos);
-
+                
                 Camera cam = Camera.main;
                 Vector3 pos = cam.WorldToViewportPoint(transform.position);
 
