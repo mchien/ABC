@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
@@ -7,6 +6,8 @@ public class PaddleBehaviour : MonoBehaviour {
 
     private bool positionSet = false;
     private ImageTargetBehaviour itb;
+    private bool started = false;
+
 
     // Use this for initialization
     void Start () {
@@ -37,6 +38,11 @@ public class PaddleBehaviour : MonoBehaviour {
         if (itb != null) {
             Vector3 pos = new Vector3(itb.transform.position.x, itb.transform.position.y, 20);
             transform.position = pos;
+
+            Quaternion rot = itb.transform.rotation;
+            rot.x = 0.0f;
+            rot.y = 0.0f;
+            transform.rotation = rot;
         }
     }
 

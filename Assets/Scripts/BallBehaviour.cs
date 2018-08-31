@@ -64,10 +64,23 @@ public class BallBehaviour : MonoBehaviour {
         if (collision.gameObject.CompareTag("Brick")) {
             collision.gameObject.SetActive(false);
         }
+        noCollision(collision);
+    }
 
-        if (!started) {
+    private void OnCollisionExit(Collision collision)
+    {
+        noCollision(collision);    
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        noCollision(collision);
+    }
+
+    private void noCollision(Collision collision) {
+        if (!started)
+        {
             Physics.IgnoreCollision(collision.collider, GetComponent<Collider>());
         }
-
     }
 }
