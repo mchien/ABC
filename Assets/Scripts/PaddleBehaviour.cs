@@ -12,7 +12,7 @@ public class PaddleBehaviour : MonoBehaviour {
     // Use this for initialization
     void Start () {
         //StartCoroutine(SetPaddle());
-        itb = GameObject.Find("ImageTarget").GetComponent<ImageTargetBehaviour>();
+        itb = GameObject.Find("ImageTarget_main").GetComponent<ImageTargetBehaviour>();
     }
 
     private IEnumerator SetPaddle()
