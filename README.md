@@ -48,13 +48,13 @@ Estimated total time spent: 3-4 days
 **All videos below contain no sound**
 
 ### The Card
-[![The card](http://footscrayarts.com/cms/wp-content/themes/fcac/images/play-button--large.png)](https://raw.githubusercontent.com/mchien/ABC/master/videos/card.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZvkXtGMBcJ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Back
-[![The card](http://footscrayarts.com/cms/wp-content/themes/fcac/images/play-button--large.png)](https://raw.githubusercontent.com/mchien/ABC/master/videos/back.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QxVzI-48L5s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Switching between scenes
-[![The card](http://footscrayarts.com/cms/wp-content/themes/fcac/images/play-button--large.png)](https://raw.githubusercontent.com/mchien/ABC/master/videos/swap.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3J1Z7eK7Gmk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Front
-[![The card](http://footscrayarts.com/cms/wp-content/themes/fcac/images/play-button--large.png)](https://raw.githubusercontent.com/mchien/ABC/master/videos/front.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hWuI6IGQLH8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
