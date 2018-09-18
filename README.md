@@ -48,13 +48,13 @@ Estimated total time spent: 3-4 days
 **All videos below contain no sound**
 
 ### The Card
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZvkXtGMBcJ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![The card](http://img.youtube.com/vi/ZvkXtGMBcJ8/0.jpg)](https://www.youtube.com/embed/ZvkXtGMBcJ8)
 
 ### Back
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QxVzI-48L5s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![The back](http://img.youtube.com/vi/3J1Z7eK7Gmk/0.jpg)](https://www.youtube.com/embed/3J1Z7eK7Gmk)
 
 ### Switching between scenes
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3J1Z7eK7Gmk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![The swap](http://img.youtube.com/vi/hWuI6IGQLH8/0.jpg)](https://www.youtube.com/embed/hWuI6IGQLH8)
 
 ### Front
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hWuI6IGQLH8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![The front](http://img.youtube.com/vi/QxVzI-48L5s/0.jpg)](https://www.youtube.com/embed/QxVzI-48L5s)
