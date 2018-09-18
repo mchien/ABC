@@ -43,3 +43,10 @@ The key methods used/learned for each part of this project
 * Parent object as _controllers
 
 Estimated total time spent: 3-4 days
+
+# Demo
+
+### The Card
+### Back
+### Switching between scenes
+### Front
