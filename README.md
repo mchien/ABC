@@ -45,8 +45,16 @@ The key methods used/learned for each part of this project
 Estimated total time spent: 3-4 days
 
 # Demo
+**All videos below contain no sound**
 
 ### The Card
+[![The card](http://footscrayarts.com/cms/wp-content/themes/fcac/images/play-button--large.png)](https://raw.githubusercontent.com/mchien/ABC/master/videos/card.mp4)
+
 ### Back
+[![The card](http://footscrayarts.com/cms/wp-content/themes/fcac/images/play-button--large.png)](https://raw.githubusercontent.com/mchien/ABC/master/videos/back.mp4)
+
 ### Switching between scenes
+[![The card](http://footscrayarts.com/cms/wp-content/themes/fcac/images/play-button--large.png)](https://raw.githubusercontent.com/mchien/ABC/master/videos/swap.mp4)
+
 ### Front
+[![The card](http://footscrayarts.com/cms/wp-content/themes/fcac/images/play-button--large.png)](https://raw.githubusercontent.com/mchien/ABC/master/videos/front.mp4)
